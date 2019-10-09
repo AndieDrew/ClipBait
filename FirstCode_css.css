@@ -22,10 +22,19 @@ footer {
   top: 470px;
   left: 30px;
 }
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+
 .btn {
   background-color: #2e382e;
   color: #50c9ce;
   border: none;
+  border-radius: 25px;
   display: inline-block;
   margin: 10px;
   padding: 12px 30px;
