@@ -10,7 +10,7 @@ h1 {
   font-size: 70px;
 }
 
-p {
+#discription {
   text-align: center;
   font-family: helvetica;
   font-style: italic;
@@ -49,12 +49,12 @@ body:not(.user-is-tabbing) textarea:focus {
 .btn:hover {
   background-color: rgb(253, 127, 196);
 }
-h2 {
+#info {
   font-size: 30px;
   font-family: Arial;
   font-style: normal;
 }
-ul {
+#list {
   font-size: 20px;
   font-family: helvetica;
 }
